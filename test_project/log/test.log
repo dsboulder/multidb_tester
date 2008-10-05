@@ -334,3 +334,185 @@
   [4;35;1mSQL (0.000133)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
   [4;36;1mSQL (0.001667)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
   [4;35;1mSQL (0.000130)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000125)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000370)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.024467)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000300)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000528)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001911)[0m   [0;1mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;35;1mSQL (0.000152)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001992)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSQL (0.000108)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000162)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000149)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000346)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001862)[0m   [0mDROP TABLE `somethings`[0m
+  [4;36;1mSQL (0.023091)[0m   [0;1mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000304)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.000508)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.001760)[0m   [0mDROP TABLE "somethings"[0m
+  [4;36;1mSQL (0.001834)[0m   [0;1mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;35;1mSQL (0.000135)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001729)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSQL (0.000151)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000168)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000114)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000340)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.002300)[0m   [0mDROP TABLE `somethings`[0m
+  [4;36;1mSQL (0.002343)[0m   [0;1mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000343)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.000562)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.001992)[0m   [0mDROP TABLE "somethings"[0m
+  [4;36;1mSQL (0.002108)[0m   [0;1mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;35;1mSQL (0.000136)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001644)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSQL (0.000183)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSomething Columns (0.001594)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Load (0.000272)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) [0m
+  [4;36;1mSomething Load (0.000267)[0m   [0;1mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) [0m
+  [4;36;1mSQL (0.000153)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000112)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000342)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001812)[0m   [0mDROP TABLE `somethings`[0m
+  [4;36;1mSQL (0.024994)[0m   [0;1mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000302)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.000565)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.001841)[0m   [0mDROP TABLE "somethings"[0m
+  [4;36;1mSQL (0.001635)[0m   [0;1mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;35;1mSQL (0.000144)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001618)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSQL (0.000133)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSomething Columns (0.001535)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Load (0.000237)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSomething Load (0.000258)[0m   [0;1mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000096)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000345)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001811)[0m   [0mDROP TABLE `somethings`[0m
+  [4;36;1mSQL (0.023275)[0m   [0;1mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000300)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.000602)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.001889)[0m   [0mDROP TABLE "somethings"[0m
+  [4;36;1mSQL (0.001600)[0m   [0;1mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;35;1mSQL (0.000125)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001647)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSQL (0.000118)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSomething Load (0.000200)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Columns (0.001112)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Load (0.000190)[0m   [0;1mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSomething Load (0.000228)[0m   [0mSELECT * FROM `somethings` [0m
+  [4;36;1mSomething Load (0.000195)[0m   [0;1mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000105)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000345)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.002435)[0m   [0mDROP TABLE `somethings`[0m
+  [4;36;1mSQL (0.002757)[0m   [0;1mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000303)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.000555)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.001974)[0m   [0mDROP TABLE "somethings"[0m
+  [4;36;1mSQL (0.001686)[0m   [0;1mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;35;1mSQL (0.000131)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001208)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSQL (0.000141)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSomething Load (0.000216)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Columns (0.002993)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Load (0.000284)[0m   [0;1mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSomething Load (0.000225)[0m   [0mSELECT * FROM `somethings` [0m
+  [4;36;1mSomething Load (0.000145)[0m   [0;1mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000353)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.020624)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.002008)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000485)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001703)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.018005)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSomething Load (0.000410)[0m   [0mSELECT * FROM `somethings` [0m
+  [4;36;1mSomething Columns (0.001094)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Load (0.000193)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSomething Load (0.000246)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000167)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000419)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000567)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001956)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.001986)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000141)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000377)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001632)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.021944)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000159)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSomething Load (0.000399)[0m   [0mSELECT * FROM `somethings` [0m
+  [4;36;1mSomething Columns (0.001484)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Load (0.000195)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSomething Load (0.000228)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000164)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000356)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000519)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001970)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.001827)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000151)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000332)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001538)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.001604)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000130)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSomething Load (0.000392)[0m   [0mSELECT * FROM `somethings` [0m
+  [4;36;1mSomething Columns (0.001490)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Load (0.000188)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000306)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000568)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001881)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.001907)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000192)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000377)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001551)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.022976)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSomething Load (0.000136)[0m   [0mSELECT * FROM `somethings` [0m
+  [4;36;1mSomething Load (0.000155)[0m   [0;1mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSomething Load (0.000381)[0m   [0mSELECT * FROM "somethings" [0m
+  [4;36;1mSomething Load (0.000385)[0m   [0;1mSELECT * FROM "somethings" WHERE ("somethings"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000393)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000631)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001654)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.001178)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000378)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.073369)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.014493)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSomething Load (0.000149)[0m   [0mSELECT * FROM `somethings` [0m
+  [4;36;1mSomething Load (0.000162)[0m   [0;1mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSomething Load (0.000246)[0m   [0mSELECT * FROM "somethings" [0m
+  [4;36;1mSomething Load (0.000203)[0m   [0;1mSELECT * FROM "somethings" WHERE ("somethings"."id" = 1) LIMIT 1[0m

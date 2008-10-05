@@ -10,6 +10,20 @@ require "mocha"
 
 MultidbTester.enabled = false
 
+ActiveRecord::Base.establish_connection("test_multidb_sqlite3")
+ActiveRecord::Schema.define do
+ create_table :somethings, :force => true do |t|
+   t.string :name
+ end
+end
+
+ActiveRecord::Base.establish_connection("test")
+ActiveRecord::Schema.define do
+ create_table :somethings, :force => true do |t|
+   t.string :name
+ end
+end
+
 class MultidbTesterTest < Test::Unit::TestCase
   def setup    
     MultidbTester.enabled = true
@@ -91,6 +105,11 @@ class MultidbTesterTest < Test::Unit::TestCase
     end
     assert get_fields_for_spec_name("test").include?(field_name)
     assert get_fields_for_spec_name("test_multidb_sqlite3").include?(field_name)
+  end
+
+  def test_fixtures
+    result = run_test(SomethingTest, "test_fixtures2")
+    assert result.passed?
   end
   
   def get_fields_for_spec_name(spec_name, table_name = "stuffs")

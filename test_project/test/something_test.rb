@@ -2,7 +2,9 @@ require File.dirname(__FILE__) + '/test_helper'
 
 class SomethingTest < Test::Unit::TestCase #ActiveSupport::TestCase
   cattr_accessor :counter
-  # Replace this with your real tests.
+
+  fixtures :somethings
+
   def test_increment_counter
     self.counter ||= 0
     self.counter += 1
@@ -23,5 +25,10 @@ class SomethingTest < Test::Unit::TestCase #ActiveSupport::TestCase
 
   def test_fails
     assert false
+  end
+
+  def test_fixtures2
+    p Something.find(:all)
+    assert Something.find_by_id(1)
   end
 end
