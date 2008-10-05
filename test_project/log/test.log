@@ -1,0 +1,336 @@
+# Logfile created on Sat Oct 04 11:08:57 -0700 2008  [4;36;1mSQL (0.000398)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000153)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000164)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000174)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000193)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000233)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000227)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000154)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000169)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000143)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000196)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000141)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000162)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000216)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000179)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000177)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000171)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000230)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000164)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000173)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000151)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000144)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000185)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000157)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000177)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000160)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000229)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000154)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000153)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000161)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000176)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000170)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000214)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000153)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000156)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000154)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000626)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000271)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000322)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000170)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000191)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000153)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000151)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000138)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000184)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000207)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000151)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000127)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000204)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000126)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000145)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000119)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000150)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000156)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000157)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000140)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000163)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000127)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000197)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000115)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000138)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000153)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000145)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000111)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000153)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000129)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000124)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000126)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000100)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: unrecognized token: "!!": SELECT omgpewpewpew!!![0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;35;1mSQL (0.000326)[0m   [0mSELECT hex(randomblob(1))[0m
+  [4;36;1mSQL (0.000154)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000116)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000137)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000117)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000144)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000148)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000148)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000128)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000166)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000126)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000122)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000133)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000129)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000117)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000140)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000105)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000114)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;36;1mSQL (0.000177)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000115)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000101)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;36;1mSQL (0.000140)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000124)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000132)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000150)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000168)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000141)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000122)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000150)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000121)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000127)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000143)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000123)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000220)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000129)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000294)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000123)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000183)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000122)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000118)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000131)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000128)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000102)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000132)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000162)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000167)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000162)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000126)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'multidb_test.stuffs' doesn't exist: SHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000313)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001865)[0m   [0;1mCREATE TABLE `stuffs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `unique_9400` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000185)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000126)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001723)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000353)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001417)[0m   [0;1mDROP TABLE `stuffs`[0m
+  [4;35;1mSQL (0.023837)[0m   [0mCREATE TABLE `stuffs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `unique_9404` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000216)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000118)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001789)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.001149)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001485)[0m   [0;1mDROP TABLE `stuffs`[0m
+  [4;35;1mSQL (0.002106)[0m   [0mCREATE TABLE `stuffs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `unique_9406` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000132)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000144)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001789)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;36;1mSQL (0.000158)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000129)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001606)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000194)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.002042)[0m   [0mCREATE TABLE "stuffs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unique_9409" varchar(255)) [0m
+  [4;36;1mSQL (0.000157)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000136)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001725)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;36;1mSQL (0.000153)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000102)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001375)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000126)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.000197)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.002077)[0m   [0mDROP TABLE "stuffs"[0m
+  [4;36;1mSQL (0.001663)[0m   [0;1mCREATE TABLE "stuffs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unique_9412" varchar(255)) [0m
+  [4;35;1mSQL (0.000136)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.002212)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000113)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.002004)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000177)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000151)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000115)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001916)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: MySQL server has gone away: SHOW TABLES[0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000176)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000126)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.003031)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: MySQL server has gone away: SHOW TABLES[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000120)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001931)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000148)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000325)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.021030)[0m   [0mDROP TABLE `stuffs`[0m
+  [4;36;1mSQL (0.001913)[0m   [0;1mCREATE TABLE `stuffs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `unique_9419` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000169)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001610)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000186)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000138)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.002195)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000135)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000387)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001376)[0m   [0mDROP TABLE `stuffs`[0m
+  [4;36;1mSQL (0.018101)[0m   [0;1mCREATE TABLE `stuffs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `unique_9431` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000108)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001835)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000146)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000123)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.002923)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000153)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000350)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001826)[0m   [0mDROP TABLE `stuffs`[0m
+  [4;36;1mSQL (0.002128)[0m   [0;1mCREATE TABLE `stuffs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `unique_9434` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000132)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.002084)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000157)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000158)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000139)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001583)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000140)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000332)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001851)[0m   [0mDROP TABLE `stuffs`[0m
+  [4;36;1mSQL (0.002730)[0m   [0;1mCREATE TABLE `stuffs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `unique_9435` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000178)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001344)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000139)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000153)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000114)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001919)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000140)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000369)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001513)[0m   [0mDROP TABLE `stuffs`[0m
+  [4;36;1mSQL (0.017883)[0m   [0;1mCREATE TABLE `stuffs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `unique_9437` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000104)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001622)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000179)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000126)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001898)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000136)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000409)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001471)[0m   [0mDROP TABLE `stuffs`[0m
+  [4;36;1mSQL (0.002988)[0m   [0;1mCREATE TABLE `stuffs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `unique_9439` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000127)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001212)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000239)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000160)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000124)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001637)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000150)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000359)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001989)[0m   [0mDROP TABLE `stuffs`[0m
+  [4;36;1mSQL (0.002850)[0m   [0;1mCREATE TABLE `stuffs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `unique_9449` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000177)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.000351)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.001649)[0m   [0mDROP TABLE "stuffs"[0m
+  [4;36;1mSQL (0.001731)[0m   [0;1mCREATE TABLE "stuffs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "unique_9449" varchar(255)) [0m
+  [4;35;1mSQL (0.000133)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001667)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000130)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m

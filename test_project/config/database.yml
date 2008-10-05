@@ -1,0 +1,15 @@
+test:
+  adapter: mysql
+  database: multidb_test
+  username: root
+  password: password
+
+development:
+  adapter: mysql
+  database: multidb_dev
+  username: root
+  password: password
+
+test_multidb_sqlite3:
+  adapter: sqlite3
+  dbfile: db/test.db
