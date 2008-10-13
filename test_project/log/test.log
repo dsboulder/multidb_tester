@@ -516,3 +516,2811 @@
   [4;36;1mSomething Load (0.000162)[0m   [0;1mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
   [4;35;1mSomething Load (0.000246)[0m   [0mSELECT * FROM "somethings" [0m
   [4;36;1mSomething Load (0.000203)[0m   [0;1mSELECT * FROM "somethings" WHERE ("somethings"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000742)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.001605)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001928)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.002121)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.020129)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.007967)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.088746)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.002501)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSomething Load (0.000499)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Columns (0.001951)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Load (0.000482)[0m   [0;1mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;36;1mSQL (0.000221)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;36;1mSQL (0.000282)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000583)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003569)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.003592)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000188)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000345)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001633)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.001761)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSomething Load (0.000361)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Columns (0.001568)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Load (0.000193)[0m   [0;1mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;36;1mSQL (0.000275)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000553)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003460)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.003683)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000159)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000511)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001422)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.001739)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSomething Load (0.000447)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Columns (0.001585)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Load (0.000221)[0m   [0;1mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;36;1mSQL (0.000122)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;36;1mSQL (0.000410)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.001444)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002220)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.002031)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000154)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000364)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001339)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.001689)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000276)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000506)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004088)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.003760)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000348)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001510)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.001824)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000288)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000513)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004666)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.003668)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000144)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000336)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001157)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.001752)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000170)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000453)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001836)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.001935)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000453)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001445)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.001869)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000179)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000453)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001538)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.001820)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000144)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000331)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001297)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.001631)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000174)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Columns (0.001871)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Create (0.000247)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.001091)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000157)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000262)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000192)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000896)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000138)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000179)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000143)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000247)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000248)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000083)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000215)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000094)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000122)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000090)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000088)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000114)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000112)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000095)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000135)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000315)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000620)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000200)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000149)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000118)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000192)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000524)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000111)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000064)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000164)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000275)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000234)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000093)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000120)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000095)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000164)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000079)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000105)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000068)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000147)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000199)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000955)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000138)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000194)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000731)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000154)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000139)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000257)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000181)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000893)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000125)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000123)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000072)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000098)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000119)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000139)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000102)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000115)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000099)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000142)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000196)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000739)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000115)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000145)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000118)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000192)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000816)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000146)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000177)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000286)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000242)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000095)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000071)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000123)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000094)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000140)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000116)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000116)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000151)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000196)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000764)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000144)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000193)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000818)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000156)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000077)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000217)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000182)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000121)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000119)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000132)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000095)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000103)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000074)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000116)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000156)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000207)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.012284)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000158)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000157)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000189)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.003536)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000180)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000210)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000243)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000107)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000075)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000071)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000103)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000102)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000122)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000094)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000143)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000118)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000116)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000102)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000264)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000197)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000781)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000151)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000122)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000164)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000211)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000799)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000158)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000130)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000206)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000179)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000119)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000106)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000088)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000125)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000066)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000095)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000150)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000082)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000135)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000124)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000188)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000709)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000162)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000195)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000796)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000693)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000072)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000111)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000216)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000181)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000094)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000102)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000126)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000110)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000119)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000115)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000159)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000244)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.011838)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000146)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000200)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000680)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000172)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000238)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000181)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000138)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000108)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000094)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000089)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000063)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000070)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000078)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000130)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000103)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000079)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000105)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000074)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000165)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000240)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000745)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000153)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000145)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000195)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000784)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000189)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000215)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000222)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000076)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000088)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000208)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000108)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000159)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000108)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000114)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000117)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000152)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000200)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000753)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000154)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000194)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000867)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000149)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000102)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000111)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000187)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000155)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000077)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000059)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000055)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000057)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000092)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000638)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000120)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000057)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000060)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000137)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000990)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000118)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000082)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000137)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000212)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000738)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000162)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000183)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000161)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000183)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000605)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000120)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000137)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000224)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000187)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000094)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000144)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000063)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000078)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000121)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000087)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000109)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000119)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000151)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000199)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.004150)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000169)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000158)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000196)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000542)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000131)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000067)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000148)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000296)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000206)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000115)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000096)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000079)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000133)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000090)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000097)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000121)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000121)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000081)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000152)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000228)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.021559)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000165)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000160)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000144)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000191)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000656)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000136)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000121)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000140)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000219)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000188)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000078)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000096)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000107)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000136)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000191)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000096)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000113)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000120)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000085)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000211)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000219)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.077478)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000145)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000313)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000692)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000149)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000075)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000255)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000185)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000086)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000118)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000163)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000099)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000141)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000137)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000213)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000097)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000148)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000200)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000763)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000151)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000151)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000204)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000743)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000142)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000100)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000127)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000217)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000184)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000095)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000130)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000090)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000095)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000156)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000126)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000112)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000173)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000152)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000184)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.003185)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000151)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000122)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000198)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000856)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000120)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000121)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000119)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000250)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000183)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000106)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000070)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000096)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000126)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000123)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000060)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000067)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000113)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000118)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000138)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000159)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000132)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000159)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000205)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.009050)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000172)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000146)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000224)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.001202)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000279)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000118)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000220)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000186)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000094)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000152)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000067)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000098)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000141)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000133)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000127)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000099)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000150)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000214)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.003247)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000156)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000218)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000156)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000203)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000654)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000151)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000101)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000115)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000218)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000182)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000102)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000110)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000108)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000141)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000120)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000165)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000199)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000134)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000140)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000155)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000189)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.003115)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000163)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000158)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000148)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000202)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000684)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000134)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000106)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000189)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000251)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000095)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000135)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000103)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000127)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000185)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000110)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'multidb_test.stuffs' doesn't exist: SHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000133)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000494)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001893)[0m   [0mCREATE TABLE `stuffs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `unique_1988` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000189)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.002184)[0m   [0mSHOW FIELDS FROM `stuffs`[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000104)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000595)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000216)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000214)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000851)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000177)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000152)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000156)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000204)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000786)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000177)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000148)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000240)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000205)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000090)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000102)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000067)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000177)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000261)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000119)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000082)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000100)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000154)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000125)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000130)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000126)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000141)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000218)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.003157)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000172)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000154)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000196)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000249)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000373)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000160)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000215)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000183)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000116)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000095)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000138)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000149)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000100)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000101)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000183)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000133)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000141)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000118)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000218)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000151)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000200)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.066612)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000156)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000158)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000203)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000759)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000149)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000103)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000102)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000215)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000196)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000107)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000996)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000072)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000107)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000235)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000168)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000136)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000163)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000228)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.002435)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000146)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000148)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000300)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000523)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000168)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000084)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000125)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000206)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000206)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000080)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000070)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000057)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000064)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000141)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000397)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000120)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000059)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000063)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000100)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000164)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000123)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000136)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000141)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000251)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.002623)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000180)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000159)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000193)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000423)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000125)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000107)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000134)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000217)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000187)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000086)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000140)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000065)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000070)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000115)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000183)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000138)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000117)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000141)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000164)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000224)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.003460)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000156)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000130)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000258)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000460)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000143)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000102)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000125)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000214)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000181)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000069)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000064)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000109)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000121)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000140)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000067)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000129)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000167)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001431)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000112)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000237)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000154)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000248)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000789)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000173)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000161)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000170)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000209)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000798)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000163)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000122)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000114)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Load (0.000221)[0m   [0mSELECT * FROM `somethings` [0m
+  [4;36;1mSomething Load (0.000184)[0m   [0;1mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.000081)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000064)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000093)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000063)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000102)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000141)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000092)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000064)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000167)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000144)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000128)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000118)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000258)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.003357)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000181)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.001099)[0m   [0mSHOW FIELDS FROM `stuffs`[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000062)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000157)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000065)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000063)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000125)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000115)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000165)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000229)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000174)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000350)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.002968)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000177)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000161)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000157)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000204)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000552)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000132)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000080)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000134)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000249)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000196)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000079)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000100)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000109)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000097)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000138)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000141)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000073)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000099)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000171)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000122)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000123)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000121)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000134)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000150)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000207)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.053199)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000182)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000183)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000182)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000206)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000769)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000173)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000119)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Load (0.000220)[0m   [0;1mSELECT * FROM `somethings` [0m
+  [4;35;1mSomething Load (0.000184)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000080)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000065)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000064)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;35;1mSQL (0.000146)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000148)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000097)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000165)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000136)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000119)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000119)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000117)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000117)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.004721)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000147)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000117)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000159)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Create (0.000228)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000843)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000313)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000162)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000152)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000191)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000817)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000184)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000142)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000156)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Load (0.000224)[0m   [0mSELECT * FROM `somethings` [0m
+  [4;36;1mSomething Load (0.000190)[0m   [0;1mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.000103)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000099)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000092)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000099)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!!!' at line 1: SELECT omgpewpewpew!!![0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000110)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000141)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000092)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000064)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;36;1mSQL (0.000101)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000158)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000128)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000140)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000155)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000141)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000128)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000373)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.003628)[0m   [0mSHOW FIELDS FROM `stuffs`[0m
+  [4;36;1mSQL (0.000180)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000146)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000127)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000141)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000132)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000139)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000128)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000130)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.004150)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000155)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000124)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000101)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000092)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000097)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000228)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000157)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000145)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000143)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.001563)[0m   [0mSHOW FIELDS FROM `stuffs`[0m
+  [4;36;1mSQL (0.005545)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000155)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000169)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000133)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000138)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000077)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000234)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000140)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000123)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000130)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000144)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000147)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.003993)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000169)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000115)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000117)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000068)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000094)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000064)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000117)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000161)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000125)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000097)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000097)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000168)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000127)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000198)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000217)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000124)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mInterrupt: : SHOW FIELDS FROM `stuffs`[0m
+  [4;36;1mSQL (0.000132)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000112)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000100)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000179)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000152)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000118)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000112)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000146)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000080)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000091)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000059)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000064)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000058)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000200)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000136)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000202)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000132)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000165)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000102)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000066)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000064)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000128)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000123)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000158)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000181)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000141)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000070)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000056)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000060)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mInterrupt: : ROLLBACK[0m
+  [4;35;1mSQL (0.000789)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000144)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000151)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000126)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000103)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000072)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000070)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000057)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.004651)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000117)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000103)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000102)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000175)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000140)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000134)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.003438)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.001698)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000572)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000183)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000082)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000057)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000058)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000129)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000125)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000076)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000071)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000077)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000059)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000057)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000057)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000108)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000066)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000204)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000130)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000109)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000075)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000117)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000191)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.013523)[0m   [0mSHOW FIELDS FROM `stuffs`[0m
+  [4;36;1mSQL (0.000183)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000422)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000118)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000267)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000080)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000073)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000174)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000105)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000103)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000104)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000107)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000101)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000140)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mInterrupt: : SHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000159)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000159)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000138)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000107)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000097)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000112)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000124)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000164)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000102)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000074)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000108)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000119)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.001418)[0m   [0mSHOW FIELDS FROM `stuffs`[0m
+  [4;36;1mSQL (0.000443)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000064)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000058)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000056)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000057)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000126)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000064)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000164)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000104)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000388)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000120)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mInterrupt: : SHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000117)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000180)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000076)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000103)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000116)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000103)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000116)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mInterrupt: : BEGIN[0m
+  [4;35;1mSQL (0.000132)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000151)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000108)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000114)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000082)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000061)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000059)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000067)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000073)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000063)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000117)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000630)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000136)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000306)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000128)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000216)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.010885)[0m   [0mSHOW FIELDS FROM `stuffs`[0m
+  [4;36;1mSQL (0.000188)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000115)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000104)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000080)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000118)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000146)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000083)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000118)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.001569)[0m   [0;1mSHOW FIELDS FROM `stuffs`[0m
+  [4;35;1mSQL (0.000090)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000066)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000080)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000057)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000056)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000237)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000063)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000080)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mInterrupt: : BEGIN[0m
+  [4;35;1mSQL (0.000093)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000089)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000149)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000283)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000553)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004423)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.003536)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000350)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001408)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.001893)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000281)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000580)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004694)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.003843)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000380)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001383)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.001621)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000148)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Columns (0.002109)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Create (0.000261)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000618)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000104)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000722)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000275)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000569)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003712)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.003768)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000144)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000349)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001468)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.002070)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000159)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Columns (0.002392)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Create (0.000297)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000554)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000144)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000359)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000504)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004614)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.003701)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000190)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000471)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001627)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.003345)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Columns (0.002299)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Create (0.000272)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000427)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000082)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000277)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000518)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003407)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.003716)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000405)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001410)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.025025)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Columns (0.001616)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Create (0.000211)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000513)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000138)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000085)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000305)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000501)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003935)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.003489)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000368)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001653)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.001566)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Columns (0.001747)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Create (0.000218)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000774)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000127)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000098)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000284)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000557)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003965)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.003549)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000347)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001406)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.001787)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000148)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Columns (0.001687)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Create (0.000206)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000940)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000158)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000141)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000297)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000603)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003573)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.003611)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000363)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001465)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.001837)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000154)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Columns (0.001855)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Create (0.000208)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.001160)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000176)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000172)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000204)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000365)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSomething Columns (0.003567)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSQL (0.000793)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.000812)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000924)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002497)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.001940)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000285)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000615)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.021900)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.001756)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Columns (0.001728)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Create (0.000214)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000518)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000084)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000299)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000524)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003689)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.003252)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000153)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000364)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001521)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.001589)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000148)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Columns (0.002144)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Create (0.000291)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000517)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000165)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000130)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000273)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000604)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003837)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.003223)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000431)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001372)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.003321)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Columns (0.001807)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Create (0.000188)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000452)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000122)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000146)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000272)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000521)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003967)[0m   [0;1mDROP TABLE "somethings"[0m
+  [4;35;1mSQL (0.003832)[0m   [0mCREATE TABLE "somethings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (0.000223)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000615)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001534)[0m   [0;1mDROP TABLE `somethings`[0m
+  [4;35;1mSQL (0.001791)[0m   [0mCREATE TABLE `somethings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000226)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000097)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Columns (0.001831)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Create (0.000212)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000848)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000234)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000146)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000181)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000107)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.004356)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000323)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.052231)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000108)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000196)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.003364)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000144)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000077)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000073)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.005149)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000281)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000754)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000143)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000069)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000091)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.003689)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000253)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000579)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000097)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000080)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.004283)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000270)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000718)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000156)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000104)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000108)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.005118)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000277)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000533)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000486)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000161)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000079)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.004956)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000292)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000505)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000130)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000141)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000156)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000116)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.004444)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000302)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000508)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000169)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000207)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000085)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000138)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000118)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000177)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000068)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000126)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000097)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Columns (0.004672)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Create (0.000277)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.003141)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000193)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000065)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000063)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000062)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000132)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.003640)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000252)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000435)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Create (0.001037)[0m   [0mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000100)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000210)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000118)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.004446)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000294)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000549)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Create (0.000860)[0m   [0mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000151)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000083)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.003849)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000279)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000519)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Create (0.000996)[0m   [0mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000072)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000218)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000522)[0m   [0mROLLBACK[0m
+  [4;36;1mSomething Create (0.000528)[0m   [0;1mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000117)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000063)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.003670)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000312)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000625)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Create (0.000816)[0m   [0mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000140)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000100)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000129)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000809)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.001007)[0m   [0mROLLBACK[0m
+  [4;36;1mSomething Create (0.000649)[0m   [0;1mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000148)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000396)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000061)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000103)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.004088)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000272)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.003365)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Create (0.001316)[0m   [0mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000134)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000059)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000061)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000081)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000185)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000545)[0m   [0mROLLBACK[0m
+  [4;36;1mSomething Create (0.000578)[0m   [0;1mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000167)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000429)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000100)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.004600)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000304)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000482)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Create (0.001147)[0m   [0mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000141)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000085)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000284)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000567)[0m   [0mROLLBACK[0m
+  [4;36;1mSomething Create (0.000617)[0m   [0;1mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000167)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.004458)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000245)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000629)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Create (0.000864)[0m   [0mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000119)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000220)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000822)[0m   [0mROLLBACK[0m
+  [4;36;1mSomething Create (0.000583)[0m   [0;1mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000138)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000100)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.004925)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000270)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000522)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Create (0.001685)[0m   [0mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000151)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000107)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.004612)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.001607)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000412)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Create (0.000884)[0m   [0mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000187)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000091)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.003723)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000270)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000688)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Create (0.000754)[0m   [0mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000166)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000108)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000065)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.005128)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000285)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000524)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Create (0.000800)[0m   [0mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000074)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000091)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.004246)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000298)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000500)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Create (0.000756)[0m   [0mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000138)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000083)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000081)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000118)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000213)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000520)[0m   [0mROLLBACK[0m
+  [4;36;1mSomething Create (0.000566)[0m   [0;1mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000164)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000071)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000067)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000070)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.004602)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.000272)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000462)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Create (0.000827)[0m   [0mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000118)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000091)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000203)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000546)[0m   [0mROLLBACK[0m
+  [4;36;1mSomething Create (0.000635)[0m   [0;1mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000179)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000068)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000109)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000101)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000158)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000102)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000128)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000123)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Columns (0.106490)[0m   [0;1mSHOW FIELDS FROM `somethings`[0m
+  [4;35;1mSomething Create (0.002993)[0m   [0mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.000904)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Create (0.000723)[0m   [0mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000119)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000075)[0m   [0mBEGIN[0m
+  [4;36;1mSomething Create (0.000201)[0m   [0;1mINSERT INTO `somethings` (`name`) VALUES(NULL)[0m
+  [4;35;1mSQL (0.000515)[0m   [0mROLLBACK[0m
+  [4;36;1mSomething Create (0.000511)[0m   [0;1mINSERT INTO "somethings" ("name") VALUES(NULL)[0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000089)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000060)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000101)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000121)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000057)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000074)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000151)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.001108)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000157)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000111)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000128)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000120)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000104)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000090)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000109)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000091)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000192)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000064)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000067)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000130)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000062)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000070)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000086)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000132)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000104)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000111)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000104)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000091)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000153)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000178)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000089)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000110)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000063)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000116)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000130)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000057)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000062)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000144)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000130)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000175)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000102)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000104)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000077)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000101)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000104)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000102)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000103)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000073)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000164)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000067)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000117)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000202)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.008143)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000121)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000100)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000097)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000133)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000100)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000074)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000061)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000107)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000069)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000062)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000151)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000148)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000058)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000062)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000148)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000067)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000116)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000071)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000068)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000109)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000108)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000166)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000064)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000132)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000148)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000080)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000135)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000130)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000056)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000057)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000132)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000082)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000106)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000163)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000138)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000101)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000101)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000091)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000087)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000194)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000073)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000104)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000057)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000056)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000198)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000151)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000101)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000075)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000102)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000190)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000103)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000091)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000073)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;35;1mSQL (0.000118)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000165)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000100)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000059)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000107)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000103)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000090)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000170)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000091)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;35;1mSQL (0.000119)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000112)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000194)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000059)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000060)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000157)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000108)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000142)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000073)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000141)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000091)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;35;1mSQL (0.000149)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000059)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000146)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000144)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000063)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000117)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000202)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000111)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000435)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000120)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000093)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000093)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000084)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000134)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000116)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000117)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000094)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;35;1mSQL (0.000132)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000058)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000057)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000153)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000202)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000112)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000408)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000120)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000119)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000106)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000159)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000097)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000116)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000076)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000094)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;35;1mSQL (0.000117)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000091)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000153)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000109)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000200)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000134)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000401)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000118)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000095)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000105)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000133)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000213)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000160)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000093)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;35;1mSQL (0.000147)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000093)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000418)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000077)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000176)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.001826)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000263)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000099)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000483)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000189)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000476)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000068)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000124)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000059)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000114)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000065)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000063)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;35;1mSQL (0.000184)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000060)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000059)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000178)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000072)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000144)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000085)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000174)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000119)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000415)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000130)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000066)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000067)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000139)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000259)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000185)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000070)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000059)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000103)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000058)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;35;1mSQL (0.000182)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000060)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000056)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000182)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000059)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000059)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000457)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000083)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000435)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000119)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000064)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000072)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000164)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000059)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000145)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000058)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000076)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000059)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;35;1mSQL (0.000132)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000084)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000135)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000063)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000058)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000174)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000088)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.002278)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000130)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000060)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000180)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000118)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000059)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000105)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000060)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000058)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000081)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000086)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000116)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000059)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000058)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000160)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000070)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000075)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000195)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000112)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000394)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000117)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000095)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000131)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000062)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000149)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000059)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000117)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000073)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000162)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000095)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000157)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000105)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000182)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000113)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000398)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000119)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000139)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000103)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000108)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000135)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000119)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000114)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000096)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000120)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000090)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000092)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000178)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000185)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000114)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000442)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000117)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000107)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000074)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000106)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000064)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000165)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000097)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000118)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000106)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000101)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000162)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000066)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000078)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000185)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000213)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000111)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.001431)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000359)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000119)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000135)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mSELECT SIN(0)[0m
+  [4;35;1mSQL (0.000082)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;35;1mSQL (0.000116)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000097)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;36;1mSQL (0.000078)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000138)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000148)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000201)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000137)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000393)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000118)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000109)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000138)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000121)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000137)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000122)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000108)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000068)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000109)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000074)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000108)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000175)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000063)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000058)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000223)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000087)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000411)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000118)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000074)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000097)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000101)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000132)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000065)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000110)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000099)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000114)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000098)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000102)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000070)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000128)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000183)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000084)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000399)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000138)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000110)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000100)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000133)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000076)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000151)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000097)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000144)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000057)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000070)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000067)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000120)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000083)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000057)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000108)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000212)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000110)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000723)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000142)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000088)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000095)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000102)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000136)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000114)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000095)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000099)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000102)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000075)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Columns (0.022467)[0m   [0mSHOW FIELDS FROM `somethings`[0m
+  [4;36;1mSomething Load (0.000445)[0m   [0;1mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.000176)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000138)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000113)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000093)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000151)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000086)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000808)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000222)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000096)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000474)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000114)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000072)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000095)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000099)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000180)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000063)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000217)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000074)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000087)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000107)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000106)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000104)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Load (0.000237)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Load (0.000261)[0m   [0mSELECT * FROM "somethings" WHERE ("somethings"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000119)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000150)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000121)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000189)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000116)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000452)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000129)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000094)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000108)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000164)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000072)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000100)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Load (0.000230)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Load (0.000258)[0m   [0mSELECT * FROM "somethings" WHERE ("somethings"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000119)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000106)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000157)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000065)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000204)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000323)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000447)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000399)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000116)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000123)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000112)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000300)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000160)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000151)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000113)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000083)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000069)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000118)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000111)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000083)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000092)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000059)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000116)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000061)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000163)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000072)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000414)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000116)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000059)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000068)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000077)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000181)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000058)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000367)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000059)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000059)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000084)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000679)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000128)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000059)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Load (0.000417)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000213)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Load (0.000292)[0m   [0mSELECT * FROM "somethings" WHERE ("somethings"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000059)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000057)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000153)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000095)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000086)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000272)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000106)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000755)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000119)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000089)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000158)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000140)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000110)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000138)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000070)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000114)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000093)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000198)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000101)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000097)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Load (0.000216)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Load (0.000259)[0m   [0mSELECT * FROM "somethings" WHERE ("somethings"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000134)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000156)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000128)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000359)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000160)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000553)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000170)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000061)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000061)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000138)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000115)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000140)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000116)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000095)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000109)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Load (0.000264)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Load (0.000302)[0m   [0mSELECT * FROM "somethings" WHERE ("somethings"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000105)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000159)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000119)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000138)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000271)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000193)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000447)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000122)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000069)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000123)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000109)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000135)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000115)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000074)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000125)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000060)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Load (0.000226)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000076)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Load (0.000353)[0m   [0mSELECT * FROM "somethings" WHERE ("somethings"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000117)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000132)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000514)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000202)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000056)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000277)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000090)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000539)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000137)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001131)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000074)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000115)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000134)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000103)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000120)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000063)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000059)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000090)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000114)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000140)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000060)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Load (0.000494)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000130)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Load (0.000264)[0m   [0mSELECT * FROM "somethings" WHERE ("somethings"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000235)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000624)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000139)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000273)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000159)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000624)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000164)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000106)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000140)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000155)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000117)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000106)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000108)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000085)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000131)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Load (0.000230)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000107)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Load (0.000303)[0m   [0mSELECT * FROM "somethings" WHERE ("somethings"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000143)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000069)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000148)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000138)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000144)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000290)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000166)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000460)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000124)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000058)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000068)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000113)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000140)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000126)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000098)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000101)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Load (0.000244)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Load (0.000311)[0m   [0mSELECT * FROM "somethings" WHERE ("somethings"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000143)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000153)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000110)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000105)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000248)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000162)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000383)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000117)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000087)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000075)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000071)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000145)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000115)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000116)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000545)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000133)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Load (0.000250)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Load (0.000330)[0m   [0mSELECT * FROM "somethings" WHERE ("somethings"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000106)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000083)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000151)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000093)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000140)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000242)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000160)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000383)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000117)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000144)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000120)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000056)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000146)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000064)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000138)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000056)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000100)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000099)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000106)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Load (0.000248)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Load (0.000351)[0m   [0mSELECT * FROM "somethings" WHERE ("somethings"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000143)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000058)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000077)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000645)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000272)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000171)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000391)[0m   [0;1mSELECT * FROM somethings[0m
+  [4;35;1mSQL (0.000117)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000091)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000220)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000111)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000142)[0m   [0mSELECT SIN(0)[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such function: SIN: SELECT SIN(0)[0m
+  [4;36;1mSQL (0.000114)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000121)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: FUNCTION multidb_test.randomblob does not exist: SELECT hex(randomblob(1))[0m
+  [4;35;1mSQL (0.000105)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000148)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000131)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000120)[0m   [0;1mBEGIN[0m
+  [4;35;1mSomething Load (0.000300)[0m   [0mSELECT * FROM `somethings` WHERE (`somethings`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSomething Load (0.000284)[0m   [0mSELECT * FROM "somethings" WHERE ("somethings"."id" = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000130)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000059)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000057)[0m   [0;1mROLLBACK[0m

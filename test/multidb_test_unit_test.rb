@@ -133,4 +133,8 @@ class MultidbTesterTest < Test::Unit::TestCase
     runner = Test::Unit::UI::Console::TestRunner.new(suite, Test::Unit::UI::SILENT)
     runner.start
   end
+
+  def run_spec(spec_class)
+
+  end
 end

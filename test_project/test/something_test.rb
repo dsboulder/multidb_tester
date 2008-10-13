@@ -28,7 +28,6 @@ class SomethingTest < Test::Unit::TestCase #ActiveSupport::TestCase
   end
 
   def test_fixtures2
-    p Something.find(:all)
     assert Something.find_by_id(1)
   end
 end
